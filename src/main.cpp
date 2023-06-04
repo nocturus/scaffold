@@ -1,5 +1,5 @@
 #include "../scaffold.hpp"
 
-int main(){
-  util::println("Hello, World!");
+int main(int argc, char **argv){
+  gui::setup_cpp(argv[1]);
 }
